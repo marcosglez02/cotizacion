@@ -1,0 +1,62 @@
+*{
+    width: 0 auto;
+    height: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Encabezado{
+    margin: 0 auto;
+    background-color: #425dad;
+    text-align: center;
+}
+#Encabezado > h1{
+    padding: 1em;
+}
+#contenedor{
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #008ac3;
+    box-shadow: 17px 20px 5px -4px rgba(0,0,0,0.75);
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#Planes{
+    width: 22.5em;
+    height: 2.5em;
+    font-size: 18px;
+}
+#piePagina{
+    margin: 0 auto;
+    background-color: #425dad;
+    text-align: center;
+    height: 5em;
+}
+#piePagina > h3{
+    padding: 1.5em;
+    color: white;
+}
+.contenido{
+    margin: 0.5em;
+}
+.contenido > label{
+    font-size: 25px;
+}
+.contenido > input{
+    width: 30em;
+    height: 2.5em;
+    font-size: 15px;
+}
+.boton{
+    font-size: 30px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+label{
+    font-size: 20px;
+}

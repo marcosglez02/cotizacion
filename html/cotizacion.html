@@ -4,12 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilosCotizacion.css">
     <title>Cotización</title>
 </head>
 <body>
-    <header>
+    <header id="Encabezado">
         <h1>Cotización</h1>
     </header>
-    
+    <div id="contenedor">
+        <div class="contenido">
+            <label for="">Valor del automóvil</label><br>
+            <input type="text" name="Cantidad" id="Cantidad">
+        </div>
+        <div class="contenido">
+            <label for="">Enganche</label><br>
+            <input type="text" name="Enganche" id="Enganche">
+        </div>
+        <div class="contenido">
+            <label for="">Total a financiar</label><br>
+            <input type="text" name="TotF" id="TotF">
+        </div>
+        <div class="contenido">
+            <label for="" class="contenido">Planes de crédito</label>
+            <select name="Planes" id="Planes">
+                <option value="12">12 Meses</option>
+                <option value="18">18 Meses</option>
+                <option value="24">24 Meses</option>
+                <option value="36">36 Meses</option>
+                <option value="48">48 Meses</option>
+            </select>
+        </div>
+        <div class="contenido">
+            <label for="">Pago Mensual</label><br>
+            <input type="text" name="PagoM" id="PagoM">
+        </div>
+        <div class="contenido">
+            <button id="btnLimpiar" class="boton">Limpiar</button>
+            <button id="btnCotizar" class="boton">Cotizar</button>
+        </div>
+
+    </div>
+    <footer id="piePagina">
+        <h3>©2022, Marcos Abraham González Páez. Todos los derechos reservados</h3>
+    </footer>
 </body>
 </html>
