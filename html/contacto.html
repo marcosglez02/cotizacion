@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="/css/estilosflex.css">
+</head>
+<body>
+
+    <header>
+        <h1>Contacto</h1>
+    </header>
+
+    <nav>
+        <a href="/html/flexbox.html">Home</a>
+        <a href="#">Noticias</a>
+        <a href="#">Contacto</a>
+        <a href="#">Sobre mí</a>
+    </nav>
+
+    <div class="row">
+        <section>
+            <form action="2020030200@upsin.edu.mx" method="get">
+                <label for="Nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre"
+                required="true" placeholder="Captura tu nombre"><br><br>
+                <label for="Correo">Correo:</label>
+                <input type="email" name="correo" id="correo"
+                required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br><br>
+                <label for="Fecha">Fecha de nacimiento:</label>
+                <input type="date" name="fechaNacimiento" id="fechaNacimiento"
+                min="2022-01-01" max="2022-12-31"><br><hr>
+                <label for="lugar">Lugar de nacimiento</label>
+                <input list="estados" id="estado" name="estado">
+                <datalist id="estados" name="estados">
+                    <option value="Sinaloa"></option>
+                    <option value="Sonora"></option>
+                    <option value="Nayarit"></option>
+                    <option value="Jalisco"></option>
+                </datalist>
+                <p style="background-color: rgb(218,185,144);">
+                    <h3>Sexo</h3>
+                    <label for="">Masculino</label>
+                    <input type="radio" name="sexo" id="masculino"><br>
+                    <label for="">Femenino</label>
+                    <input type="radio" name="sexo" id="femenino"><br>
+                </p>
+                <br>
+                <label for="Nivel de estudio">Nivel de estudio</label>
+                <h2>Estudios</h2>
+                <input type="checkbox" name="primaria" id="primaria" value="1">
+                <label for="">Primaria</label><br>
+                <input type="checkbox" name="secundaria" id="secundaria" value="2">
+                <label for="">Secundaria</label><br>
+                <input type="checkbox" name="preparatoria" id="preparatoria" value="3">
+                <label for="">Preparatoria</label><br>
+                <input type="checkbox" name="universidad" id="universidad" value="4">
+                <label for="">Universidad</label>
+                <hr>
+                <br>
+                    
+                    <h3>Comentarios</h3>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Escribe tus comentarios"></textarea><br>
+                    <input type="submit" value="Enviar información">
+                    <input type="reset" value="Limpiar información">
+                
+            </form>
+        </section>
+</div>
+<footer>
+    <h2>Footer</h2>
+</footer>
+</body>
+</html>

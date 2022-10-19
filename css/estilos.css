@@ -1,0 +1,104 @@
+/* Despues del primer commit */
+/* Selector universal */
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+/* Selecto ID */
+#contenedor{
+    width: 1200px;
+    height: 1000px;
+    background-color: rgb(247, 153, 47);
+    max-width: 0 auto;
+    margin: auto;
+}
+#encabezado{
+    width: 100%;
+    height: 15%;
+    background-color: moccasin;
+    margin: 1em auto;
+}
+#menu{
+    height: 3.5%;
+    background-color: peru;
+    margin: 1em auto;
+    padding-top: 1em;
+}
+#contenido{
+    height: 70%;
+    width: 61%;
+    background-color: dimgrey;
+    margin: 0.5em;
+    float: left;
+}
+#fueraSeccion{
+    height: 70%;
+    width: 36%;
+    background-color: rgb(47, 64, 139);
+    margin: 0.5em;
+    float: right;
+    text-align: center;
+}
+#pie{
+    width: 100%;
+    height: 4%;
+    background-color: khaki;
+    border-radius: 1em;
+    margin: 0.5em auto;
+    float: left;
+}
+
+/* Selector de clase */
+.texto{
+    text-align: justify;
+    font-family: Tahoma;
+    font-size: 12;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+.encabezado_articulo{
+    text-align: center;
+    background: #333;
+    color: white;
+    margin: auto 2em;
+}
+.imagenes{
+    display: block;
+    border: 1px solid #ddd;
+    margin: auto;
+    border-radius: 4px;
+    width: 150px;
+}
+.pie_pagina{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin: 0.5em;
+}
+.menu_fuera_seccion a{
+    display: block;
+    font-size: larger;
+    margin: 2em auto;
+}
+
+/* Selecto de etiqueta */
+ul{
+    text-align: center;
+}
+li{
+    display: inline;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+}
+h1{
+    display: block;
+    text-align: center;
+    padding: 5%;
+}
+a{
+    color: black;
+    text-decoration: unset;
+}
